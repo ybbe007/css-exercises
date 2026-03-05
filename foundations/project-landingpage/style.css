@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: content-box;
+
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 8px 0;
+    
+}
+
+.header img {
+    display: flex;
+    flex: 0 1 auto;
+    height: 100px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 16px;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 48px 0 48px 0;
+}
+
+.hero-content {
+    display: flex;
+    width: 1100px;
+    gap: 16px;
+}
+
+.hero-text {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 16px;
+    flex: 0 1 50%;
+    justify-content: center;
+    align-items: start;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    width: auto;
+}
+
+.hero-img {
+    display: flex;
+    width: 50%;
+}
+
+.hero-img img {
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 48px 0;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.cards div {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cards div p {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote div {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    padding: 100px 0;
+}
+
+.quote div .quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+}
+
+.cta-content {
+    background-color: #3882F6;
+    border-radius: 16px;
+    width: 1100px;
+}
+
+.cta-content .width {
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-content p, .cta-content h3 {
+    color: #F9FAF8;
+}
+
+.second {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.footer-content {
+
+}
+
+.footer-content p {
+    color: #E5E7EB;
+}
